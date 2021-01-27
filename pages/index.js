@@ -9,7 +9,6 @@ import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 
-
 export const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
@@ -29,6 +28,8 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>AluraQuiz - Imersão React Nextjs</title>
+        <meta name="theme-color" content="#f44336" />
+        <meta name="description" content="imersao-react alura" />
       </Head>
       <QuizContainer>
         <QuizLogo />
@@ -37,14 +38,13 @@ export default function Home() {
             <h1>Tech Women Quiz</h1>
           </Widget.Header>
           <Widget.Content>
-            <form onSubmit={function (infosDoEvento) {
+            <form onSubmit={function(infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo uma submissão por meio do react');
             }}
             >
               <input
-                onChange={function (infosDoEvento) {
+                onChange={function(infosDoEvento) {
                   console.log(infosDoEvento.target.value);
                   // State
                   // name = infosDoEvento.target.value;
@@ -69,7 +69,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/SilSantana" />      
+      <GitHubCorner projectUrl="https://github.com/SilSantana" />
     </QuizBackground>
   );
 }
