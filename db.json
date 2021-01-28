@@ -1,18 +1,18 @@
 {
   "bg": "https://gamerheadquarters.com/movies/images/screenshots/dc/wonderwomanposter.jpg",
-  "title": "Quiz CSS da Alura",
+  "title": "Tech Women Quiz - imersão react alura",
   "description": "Teste os seus conhecimentos sobre as mulheres na área de tecnologia",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "title": "Qual o nome da desenvolvedora e segunda mulher negra a obter o doutorado em Matemática na Universidade de Yale?",
       "description": "Essa é pra aquecer",
       "answer": 2,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Grace Hopper",
+        "Evelyn Boyd Granville",
+        "Karen Spärck Jones",
+        "Harriet Tubman"
       ]
     },
     {
@@ -36,7 +36,8 @@
       "mainBg": "#f6685e",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
-      "success": "#ab003c"
+      "success": "#ab003c",
+      "contrastPanel": "#ee99fc"
     },
     "borderRadius": "4px"
   }
