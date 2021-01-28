@@ -4,7 +4,7 @@
   "description": "Teste os seus conhecimentos sobre as mulheres na área de tecnologia",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "image": "https://media.giphy.com/media/1n8aGJBEXuW0M7ELrB/giphy.gif",
       "title": "Qual o nome da desenvolvedora e segunda mulher negra a obter o doutorado em Matemática na Universidade de Yale?",
       "description": "Essa é pra aquecer",
       "answer": 2,
@@ -16,13 +16,38 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/L0eK9W4SJZbe46BoPY/giphy.gif",
+      "title": "Quem criou a Frequência de Documentação Inversa, ou IDF(medida estatística para identificar a importância de uma palavra dentro de um documento)?",
+      "description": "Essa nem eu sabia hahaha",
+      "answer": 3,
+      "alternatives": [
+        "Abisoye Ajayi-Akinfolarin",
+        "Evelyn Boyd Granville",
+        "Ada Lovelace",
+        "Karen Spärck Jones"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/nh2UibFn9DEd2/giphy.gif",
+      "title": "Quem são conhecidas como as garotas do ENIAC?",
+      "description": "Essa vem dos primordios",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Adele Goldstine, Betty Snyder, Marlyn Wescoff, Ruth Lichterman, Fran Bila e Kay McNulty ",
+        "Ada Lovelace, Grace Hopper, Evelyn Boyd Granville, Karen Spärck Jones e Adele Goldstine",
+        "Grace Hopper, Betty Snyder, Ada Lovelace, Ruth Lichterman, Kay McNulty e Fran Bilas"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/TTy5YmVmhmWhq/giphy.gif",
+      "title": "Qual o nome da engeheira de software que participou do desenvolvimento de alguns clássicos do mundo dos games, como 3D Tic Tac Toe, Super Breakout e River Raid?",
+      "description": "Quem é fã de games vai acertar bem rápido... será?",
+      "answer": 1,
+      "alternatives": [         
+         "Roberta Williams",
+         "Carol Shaw",
+         "Radia Perlman",
+         "Frances Allen"
       ]
     }
   ],

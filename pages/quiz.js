@@ -93,6 +93,11 @@ export default function QuizPage() {
   const questionIndex = currentQuestion;
   const question = db.questions[questionIndex];
 
+  // [ React chama de: Efeitos || Effects ]
+  // nasce === didMount
+  // atualizado === wilUpdate
+  // morre === willUnmount
+
   React.useEffect(() => {
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
