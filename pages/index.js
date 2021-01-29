@@ -10,6 +10,7 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
+import ListQuiz from '../src/components/ListQuiz';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -63,7 +64,27 @@ export default function Home() {
           <Widget.Content>
             <h1>Quiz da Galera</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            <p>Confira aqui alguns quizes da galera da imersão react alura...</p>
+
+            <ListQuiz>
+              <ul>
+                <li>
+                  <a href="https://alura-quiz-avengers.fernanda-kipper.vercel.app/" target="_blank">Avengers Endgame</a>
+                </li>
+                <li>
+                  <a href="https://aluraquiz-harrypotter.karinarovani.vercel.app/" target="_blank">harrypotter</a>
+                </li>
+                <li>
+                  <a href="https://theofficequiz.brunaguedes92.vercel.app/" target="_blank">theofficequiz</a>
+                </li>
+                <li>
+                  <a href="https://batuquequiz.fihcapua.vercel.app/" target="_blank">batuquequiz</a>
+                </li>
+                <li>
+                  <a href="https://imersao-alura-viking-quiz.gsmenezes.vercel.app/" target="_blank">viking</a>
+                </li>
+              </ul>
+            </ListQuiz>
           </Widget.Content>
         </Widget>
         <Footer />
