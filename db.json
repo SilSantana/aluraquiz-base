@@ -49,14 +49,48 @@
          "Radia Perlman",
          "Frances Allen"
       ]
+    },
+    {
+      "image": "hhttps://media.giphy.com/media/19yH2r3Y1eeic/giphy.gif",
+      "title": "Quem foi a responsável pela criação do protocolo STP (Spanning Tree Protocol)?",
+      "description": "Essa é fácil... :)",
+      "answer": 0,
+      "alternatives": [
+         "Radia Perlman",
+         "Frances Allen"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l1OCfBxd4FHHMk5zeZ/giphy.gif",
+      "title": "Ela foi a primeira mulher a ganhar o prestigiado Turing Award, Quem é ela?",
+      "description": "Essa é mais recente...",
+      "answer": 3,
+      "alternatives": [         
+         "Margaret Hamilton",
+         "Grace Hopper",
+         "Karen Sparck Jones",
+         "Frances Allen"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/j4qzqfdXRmw06W1SYb/giphy.gif",
+      "title": "Ela foi diretora da Divisão de Software no Laboratório de Instrumentação do MIT, que desenvolveu o programa de voo usado no projeto Apollo 11, Quem é ela?",
+      "description": "Essa até a Lua sabe ...",
+      "answer": 0,
+      "alternatives": [         
+         "Margaret Hamilton",
+         "Mary Kenneth Keller",
+         "Jean Sammet",
+         "Grace Hopper"
+      ]
     }
   ],
   "external": [
     "https://alura-quiz-avengers.fernanda-kipper.vercel.app/",
     "https://aluraquiz-harrypotter.karinarovani.vercel.app/",
     "https://theofficequiz.brunaguedes92.vercel.app/",
-    "https://imersao-alura-viking-quiz.gsmenezes.vercel.app/",
-    "https://gintama-quiz.yuukiasuna00.vercel.app/"
+    "https://aluraquiz.rachelkozlowsky.vercel.app/",
+    "https://aluraquiz.evelymvasconcelos.vercel.app/"
   ],
   "theme": {
     "colors": {
