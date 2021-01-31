@@ -52,7 +52,11 @@
     }
   ],
   "external": [
-    ""
+    "https://alura-quiz-avengers.fernanda-kipper.vercel.app/",
+    "https://aluraquiz-harrypotter.karinarovani.vercel.app/",
+    "https://theofficequiz.brunaguedes92.vercel.app/",
+    "https://imersao-alura-viking-quiz.gsmenezes.vercel.app/",
+    "https://gintama-quiz.yuukiasuna00.vercel.app/"
   ],
   "theme": {
     "colors": {
@@ -61,8 +65,7 @@
       "mainBg": "#f6685e",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
-      "success": "#ab003c",
-      "contrastPanel": "#ee99fc"
+      "success": "#ab003c"
     },
     "borderRadius": "4px"
   }

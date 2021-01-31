@@ -1,14 +1,17 @@
 {
-  "name": "with-styled-components",
+  "name": "aluraquiz-base",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "eslint:init": "eslint --init",
     "lint": "eslint ./ --fix"
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.3",
+    "@crello/react-lottie": "^0.0.11",
+    "framer-motion": "^3.2.1",
+    "lottie-web": "^5.7.6",
     "next": "latest",
     "prop-types": "^15.7.2",
     "react": "^16.8.0",

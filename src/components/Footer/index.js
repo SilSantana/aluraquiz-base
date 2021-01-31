@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
-  background-color: #00000070;
+  background-color: #f6685e;
   padding: 20px;
   display: flex;
   align-items: center;
   border-radius: 4px; 
+  border: 1px solid ${({ theme }) => theme.colors.primary};
   img {
     width: 58px;
     margin-right: 23px;
